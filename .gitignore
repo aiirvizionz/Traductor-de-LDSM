@@ -1,0 +1,18 @@
+# Ignorar entornos virtuales y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+.env
+
+# Ignorar las carpetas masivas de datasets
+DATASET/
+DATASET_DINAMICO/
+DEBUG_TILES/
+
+# Ignorar archivos temporales o pesados de datos (opcional, pero recomendado)
+# Nota: Los archivos .keras y clases.npy sí los subiremos para que el proyecto funcione de inmediato.
+*.pickle
+dataset_lsm_coordenadas.csv
+dataset_lsm_normalizado.csv
